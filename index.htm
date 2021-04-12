@@ -9,13 +9,32 @@
 <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
-  <header>
+  <header class="header-covid">
     <img src="./img/covid1.png" alt="Covid-19">
+    <div class="confirmed-box">
+      Confirmados
+      <div class="confirmed">loading...</div>
+    </div>
+    <div class="deaths-box">
+      Óbitos
+      <div class="deaths">loading...</div>
+    </div>
+    <div class="recovered-box">
+      Recuperados
+      <div class="recovered">loading...</div>
+    </div>
+    <div class="country-box">
+      País:
+      <div class="country">loading...</div>
+    </div>
   </header>
   <div class="container">
     <aside class="dashboard">
+      <input type="text" id="countryText" value="" placeholder="Coutry">
+      <button class="btn-busca">buscar</button>
+      <br>
       <select class=>
-        <option id="pais">Buscar país ....</option>
+        <option value="default" id="pais">Buscar país ....</option>
     </select>
     </aside>
     <div id='map'>

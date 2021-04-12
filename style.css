@@ -17,19 +17,24 @@ h1{
   justify-content: center;
   align-items: center;
   height:70%;
+  border: 5px solid rgb(238, 0, 206);
+  width:100%;
 }
 
 .title{
   background:rgb(24, 24, 24);
 }
 
-header{
+.header-covid{
+  display: flex;
+  justify-content: space-around;
   background:rgb(24, 24, 24);
-  height:20%;
+  height:70%;
   width: 100vw;
   display:flex;
   align-items: center;
   padding: 20px 10px;
+  border: 5px solid rgb(0, 238, 91);
 }
 
 header img{
@@ -42,14 +47,16 @@ header img{
 }
 
 #map{
-  height:85vh;
+  height:100vh;
   width: 100vw;
+  border: 5px solid rgb(0, 238, 238);
 }
 
 .dashboard{
-  height:90vh;
+  height:100vh;
   background:rgb(236, 236, 236);
-  width: 20vw;
+  width: 25vw;
+  border: 5px solid rgb(202, 238, 0);
 }
 
 .data-screen{
@@ -61,12 +68,58 @@ header img{
 }
 
 footer{
-  height:15%;
+  height:15vh;
   width:100%;
   background:rgb(38, 7, 216);
 }
 
-#pais{
-  height:20px;
-  width:80px;
+.deaths{
+  color:#fff;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.deaths-box{
+  height: 20px;
+  width:180px;
+  color:rgb(255, 0, 0);
+  font-size: 25px;
+}
+
+.confirmed{
+  color:#fff;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.confirmed-box{
+  height: 20px;
+  width:180px;
+  color:rgb(255, 251, 0);
+  font-size: 25px;
+}
+.recovered{
+  color:#fff;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.recovered-box{
+  height: 20px;
+  width:180px;
+  color: rgb(43, 255, 0);
+  font-size: 25px;
+}
+
+.country{
+  color:#fff;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.country-box{
+  height: 20px;
+  width:180px;
+  color: rgb(0, 153, 255);
+  font-size: 25px;
 }
